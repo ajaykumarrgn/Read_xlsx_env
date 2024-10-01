@@ -1,7 +1,7 @@
 describe('Combined Cypress Tests', () => {
   beforeEach(() => {
     // Read the Excel file and store data in a Cypress alias
-    cy.task('readExcelFile', { filePath: '/home/tyro24001/Desktop/cypress/cypress/e2e/variables/quotation_data.xlsx' }).then((data) => {
+    cy.task('readExcelFile', { filePath: '//home/ajaykumar/excel_git_cypress/cypress/cypress/e2e/variables/quotation_data.xlsx' }).then((data) => {
       cy.wrap(data).as('testData');
     });
   });

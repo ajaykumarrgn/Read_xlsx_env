@@ -6,13 +6,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": " ",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cypress": "^13.14.0",
+    "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
-    "xlsx": "^0.18.5",
-    "dotenv": "^16.4.5"
-  }
+    "xlsx": "^0.18.5"
+  },
+  "repository": "https://github.com/ajaykumarrgn/Read_xlsx_env.git"
 }

@@ -1,7 +1,7 @@
 describe('Quotation Flow', () => {
   beforeEach(() => {
     // Read data from the Excel file
-    cy.task('readExcelFile', { filePath: '/home/tyro24001/Desktop/cypress/cypress/e2e/variables/offer.xlsx', sheetName: 'Sheet1' }).then((data) => {  
+    cy.task('readExcelFile', { filePath: '/home/ajaykumar/excel_git_cypress/cypress/cypress/e2e/variables/offer.xlsx', sheetName: 'Sheet1' }).then((data) => {  
         Cypress.log({message:'excel data loaded',log:false});
         cy.wrap(data, {log:false}).as('testdata');
     });
