@@ -46,7 +46,7 @@ jobs:
         env:
           USER_NAME: ${{ secrets.USER_NAME }}  # Set your GitHub secrets for username and password
           PASSWORD: ${{ secrets.PASSWORD }}
-        run: npx cypress run --spec "cypress/e2e/Quotation_work_flow.cy.js" --config-file=./cypress.config.cjs 
+        run: npx cypress run --spec "cypress/e2e/Offer.cy.js" --config-file=./cypress.config.cjs 
 
       - name: Upload Cypress test artifacts (optional)
         if: always()
